@@ -169,7 +169,7 @@ def reset():
     
     return real[:]
 
-print(shuffle(r))
+#print(shuffle(r))
 
 
 
