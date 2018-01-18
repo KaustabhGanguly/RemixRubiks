@@ -144,7 +144,7 @@ def front_ac(r):
 
 def back_c(r):
     
-    rt= [\]
+    rt= [18,30,42,43,44,32,20,19]
     rotate(r,rt)
     L = [0,3,6,9,21,33,45,48,51,15,27,39]
     return shift(r, L)
