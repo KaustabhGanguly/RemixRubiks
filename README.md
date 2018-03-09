@@ -22,9 +22,7 @@ display(r)
 left_ac(r)
 left_ac(r)
 display(r)
-left_ac(r)
-left_ac(r)
-display(r)
+
 -----
 
 ## It displays
