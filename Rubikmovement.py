@@ -275,10 +275,18 @@ def display(r):
                      print(r[20]+" "+r[32]+" "+r[44],end='\n')
                   if i == 8:
                       print(" ")
+                      print(" ------------------------------------- ")
             
     return ' '.join(r)
 
-#print(shuffle(r))
+print(r)
+display(r)
+left_ac(r)
+left_ac(r)
+display(r)
+left_ac(r)
+left_ac(r)
+display(r)
 
 
 
