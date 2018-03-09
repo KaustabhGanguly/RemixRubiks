@@ -169,6 +169,115 @@ def reset():
     
     return real[:]
 
+def display(r):
+    for j in range(15):
+          for i in range(9):
+              if j == 0 :
+                  if i == 0 :
+                     print(" ")
+                  while i<4:
+                       print(" ", end='')
+                       i += 1
+                  if i == 5:
+                     print(r[9]+" "+r[21]+" "+r[33],end='\n')
+                     
+              if j == 1 :
+                  while i<4:
+                     print(" ", end='')
+                     i += 1
+                  if i == 5:
+                     print(r[10]+" "+r[22]+" "+r[34],end='\n')
+                     
+
+              if j == 2 :
+                  while i<4:
+                     print(" ", end='')
+                     i += 1
+                  if i == 5:
+                     print(r[11]+" "+r[23]+" "+r[35],end='\n')
+                     
+              if j == 3 :
+                  if i == 0:
+                   print(" ")
+                     
+              if j == 4 :
+                  if i==0 :
+                     print(r[0]+" "+r[3]+" "+r[6]+"  ",end='')
+                  if i==3 :
+                     print(r[12]+" "+r[24]+" "+r[36]+" ",end='')
+                  if i==6 :
+                      print(" "+r[45]+" "+r[48]+" "+r[51],end='\n')
+                      
+              if j == 5 :
+                  if i==0 :
+                     print(r[1]+" "+r[4]+" "+r[7]+"  ",end='')
+                  if i==3 :
+                     print(r[13]+" "+r[25]+" "+r[37]+" ",end='')
+                  if i==6 :
+                      print(" "+r[46]+" "+r[49]+" "+r[52],end='\n')
+            
+              if j == 6 :
+                  if i==0 :
+                     print(r[2]+" "+r[5]+" "+r[8]+"  ",end='')
+                  if i==3 :
+                     print(r[15]+" "+r[26]+" "+r[38]+" ",end='')
+                  if i==6 :
+                      print(" "+r[47]+" "+r[50]+" "+r[53],end='\n')
+                      
+              if j == 7 :
+                  if i==0:
+                   print(" ")
+                      
+              if j == 8 :
+                  while i<4:
+                     print(" ", end='')
+                     i += 1
+                  if i == 5:
+                     print(r[15]+" "+r[27]+" "+r[39],end='\n')
+                
+              if j == 9 :
+                  while i<4:
+                     print(" ", end='')
+                     i += 1
+                  if i == 5:
+                     print(r[16]+" "+r[28]+" "+r[40],end='\n')
+                     
+              if j == 10 :
+                  while i<4:
+                     print(" ", end='')
+                     i += 1
+                  if i == 5:
+                     print(r[17]+" "+r[29]+" "+r[41],end='\n')
+                     
+              if j == 11 :
+                  if i==0 :
+                   print(" ")
+            
+              if j == 12 :
+                  while i<4:
+                     print(" ", end='')
+                     i += 1
+                  if i == 5:
+                     print(r[18]+" "+r[30]+" "+r[42],end='\n')
+                     
+              if j == 13 :
+                  while i<4:
+                     print(" ", end='')
+                     i += 1
+                  if i == 5:
+                     print(r[19]+" "+r[31]+" "+r[43],end='\n')
+                     
+              if j == 14 :
+                  while i<4:
+                     print(" ", end='')
+                     i += 1
+                  if i == 5:
+                     print(r[20]+" "+r[32]+" "+r[44],end='\n')
+                  if i == 8:
+                      print(" ")
+            
+    return ' '.join(r)
+
 #print(shuffle(r))
 
 
